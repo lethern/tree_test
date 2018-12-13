@@ -5,14 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\JS\tree.js" />
-    <None Include="wwwroot\Pages\tree.html" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <None Include="wwwroot\CSS\basic.css" />
+    <None Include="wwwroot\JS\kinetic-v4.6.0.js" />
+    <None Include="wwwroot\JS\kinetic-v4.6.0.min.js" />
+    <None Include="wwwroot\JS\log.js" />
+    <None Include="wwwroot\JS\master.js" />
+    <None Include="wwwroot\JS\mootools-more-1.4.0.1.js" />
+    <None Include="wwwroot\JS\tree.js" />
+    <None Include="wwwroot\JS\utils.js" />
+    <None Include="wwwroot\JS\_tmp_map.js" />
+    <None Include="wwwroot\Pages\tree.html" />
   </ItemGroup>
 
 </Project>
