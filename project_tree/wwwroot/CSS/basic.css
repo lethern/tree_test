@@ -1,0 +1,55 @@
+﻿
+._show{
+	display: inherit !important;
+}
+
+._bold {
+	font-weight: bold;
+}
+
+/* CONSOLE */
+
+#consoleHelperDiv,
+#consoleDiv {
+	position: absolute;
+	top: 5px;
+	z-index: 5000;
+	background-color: #a6e3f3;
+}
+
+#consoleHelperDiv {
+	cursor: pointer;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font-size: small !important;
+}
+
+#consoleDiv {
+	font: normal normal small Verdana;
+	left: 30px;
+	min-width: 500px;
+	max-width: 1000px;
+	height: 135px;
+	text-align: left;
+	overflow: auto;
+	padding-left: 6px;
+}
+
+#consoleDiv ul {
+	margin: 2px;
+	padding-left: 20px;
+}
+
+.consoleError {
+	color: red;
+}
+
+.consoleWarn {
+	color: brown;
+}
+
+.consoleDebug {
+	color: #6d6d6d;
+}

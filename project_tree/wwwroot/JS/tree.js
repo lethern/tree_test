@@ -1,6 +1,9 @@
 ﻿
 
 function onLoad() {
+
+	CONSOLE.init_defaults();
+
 	test_elem = document.createTextNode('test');
 	document.getElementById('main_div').appendChild(test_elem);
 
